@@ -1,0 +1,466 @@
+@media (max-width:1200px){
+/*Intro
+========================*/
+    .intro{
+        height: auto;
+    }
+    .intro__title{
+        padding-top:60px;
+        font-size: 40px;
+
+    }
+/*Nav
+========================*/
+    .nav{
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        background-color: #3f4049;
+
+        text-align: right;
+        position: absolute;
+        top: 100%;
+        right: 0;
+    }
+    .nav.show{
+        display: flex;
+    }
+    .nav__link{
+        color: #fff;
+        padding: 9px 15px;
+    }
+    .burger{
+        display: block;
+    }
+/*About Us
+========================*/
+    .about__img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about__text{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+
+    }
+/*Our Focus
+========================*/
+    .services__item{
+        width: calc(50% - 30px);
+    }
+    .services__item:nth-child(2){
+        margin-right: 0;
+    }
+/*Our Team
+========================*/
+    .members__inner{
+        justify-content: space-between;
+    }
+    .members__item{
+        width: 50%;
+        margin-right: 0;
+        margin-bottom: 30px;
+}
+    .memerts__item:nth-child(odd){
+        margin-right: 30px;
+    }
+/*Pricing Table
+========================*/
+    .pricing__table{
+        max-width: 360px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .pricing__inner{
+        margin-right: 0;
+    }
+/*Testimonials
+========================*/
+    .testimonials__photo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .feedbacks__content{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%
+    }
+/*Why Select Us?
+========================*/
+    .why__item{
+        width: 50%;
+    }
+/*Blog
+========================*/
+    .blog__inner{
+        justify-content: center;
+    }
+    .single__post{
+        width: 100%;
+
+    }
+    .posts{
+        max-width: 555px;
+        width: 100%;
+        margin-top: 30px;
+        align-items: center;
+    }
+
+    posts__item{
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 992px){
+/*Our Focus
+========================*/
+    .services__item{
+        width: calc(100% - 30px);
+        margin-right: 0;
+
+    }
+/*Work Steps
+========================*/
+    .steps__inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .stemps__item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .content__inner{
+        padding: 50px;
+    }
+    .item__content{
+        margin-bottom: 30px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .item__content_right{
+        margin-bottom: 30px;
+        margin:15px 0;
+        position: relative;
+        top: 0;
+        left: 0;
+
+    }
+/*Why Select Us?
+========================*/
+    .why__item{
+        width: 100%;
+        padding-left: 0;
+    }
+    .journy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .journy__text{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 800px){
+/*About Us
+========================*/
+    .about{
+    padding: 50px 0 ;
+
+}
+/*Our Focus
+========================*/
+    .focus{
+     padding: 50px 0 ;
+    }
+/*Video
+========================*/
+    .video{
+    padding: 50px 0;
+    }
+/*Portfolio
+========================*/
+    .portfolio{
+        padding: 50px 0;
+    }
+/*Our Team
+========================*/
+    .team{
+        padding: 50px 0;
+    }
+/*Stats
+========================*/
+    .stats{
+        padding: 50px 0;
+    }
+/*Steps
+========================*/
+    .steps{
+        padding: 50px 0;
+    }
+/*Pricing Table
+========================*/
+    .pricing{
+        padding: 50px 0;
+    }
+/*Testimonials
+========================*/
+    .testimonials{
+        padding: 50px 0;
+    }
+/*Why
+========================*/
+    .why__title{
+        padding-top: 50px;
+    }
+/*Blog
+========================*/
+    .blog{
+        padding: 50px 0;
+    }
+/*Subscribe
+========================*/
+    .subscribe{
+        padding: 50px 0;
+    }
+/*Get_In_Touch
+========================*/
+    .get{
+        padding: 50px 0;
+    }
+
+    .form{
+        width: 100%;
+    }
+    .form:nth-child(odd) {
+        margin-right: auto;
+    }
+
+/*Footer
+========================*/
+    .footer__logo{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .footer__item{
+        width: 33,33333%;
+    }
+}
+@media screen and (max-width: 588px){
+/*Intro
+========================*/
+
+    .intro__title{
+        font-size: 30px
+    }
+    .features__items{
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+/*About Us
+========================*/
+    .about__title{
+        font-size: 30px;
+    }
+    .about__text{
+        padding: 40px 40px;
+    }
+    .about__subtitle{
+        font-size: 13px;
+
+    }
+/*Our Focus
+========================*/
+    .focus__title{
+        font-size: 30px
+    }
+    .focus__subtitile{
+        font-size: 15px;
+        line-height: 35px;
+    }
+/*Video
+========================*/
+    .video__title{
+        font-size: 20px;
+    }
+/*Portfolio
+========================*/
+    .portfolio__title{
+        font-size: 40px;
+    }
+    .portfolio__subtitile{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .works__img{
+        display: block;
+        opacity: 1;
+    }
+    .works__title{
+        display: none;
+    }
+/*Our Team
+========================*/
+    .team_title{
+        font-size: 40px;
+    }
+    .team__subtitle{
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .members__item{
+        width: 100%;
+
+    }
+/*Stats
+========================*/
+    .stats{
+        max-height: none;
+        height: auto;
+
+    }
+    .stats__item{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    /*Stats
+========================*/
+    .steps__title{
+        font-size: 40px;
+
+    }
+/*Work Steps
+========================*/
+    .steps__subtitle{
+        font-size: 15px;
+        line-height: 35px;
+        margin-bottom: 20px;
+
+    }
+    .content__inner{
+        padding: 30px;
+    }
+/*Pricing Table
+========================*/
+    .pricing__title{
+        font-size: 30px;
+    }
+
+    .pricing__subtitle{
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+    .pricing__inner{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 25px;
+    }
+/*Testivonials
+========================*/
+    .testimonials__titile{
+        font-size: 40px;
+    }
+    .testimonials__subtitle{
+        font-size: 15px;
+        line-height: 35px;
+    }
+/*Why Select Us ?
+========================*/
+    .why__title{
+        font-size: 30px;
+    }
+    .why__subtitile{
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .why__item{
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .why__item:nth-child(6){
+        margin-bottom: 35px;
+    }
+/*Our Blog
+========================*/
+    .blog__titile{
+        font-size: 40px;
+    }
+    .blog__subtitile{
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .post__coments{
+        padding: 30px;
+    }
+    .post__title{
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+/*Subscribe
+========================*/
+    .subscribe__titile{
+        font-size: 24px;
+    }
+    .input__inner{
+        display: flex;
+        justify-content: center;
+    }
+    .input_mail{
+        padding: 10px;
+        text-align: center;
+
+    }
+    .button__subscribe{
+        margin: 0;
+        padding: 15px;
+        font-size: 15px;
+    }
+/*Get In Touch
+========================*/
+    .get__titile{
+        font-size: 30px;
+    }
+    .get__subtitle{
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .text{
+        max-height: 150px;
+    }
+    .btn--send{
+        margin-top: 35px;
+    }
+/*Footer
+========================*/
+    .footer__inner{
+      justify-content: center;
+    }
+    .footer__item{
+        width: auto;
+    }
+    .footer__item{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
